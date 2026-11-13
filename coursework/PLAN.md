@@ -1,6 +1,6 @@
 # LiTS search-budget reproduction
 
-Status: setup and pilot; no final reproduction result yet.
+Status: five-item, one-trial pilot complete; see PILOT_RESULTS.md. Final multi-trial study and submission artifacts remain.
 
 Question: Does reducing MCTS iterations from 10 to 3 preserve accuracy while reducing token consumption?
 

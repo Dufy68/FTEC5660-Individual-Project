@@ -1,0 +1,12 @@
+[
+  {
+    "index": 0,
+    "unique_id": "test/number_theory/572.json",
+    "reference": "9",
+    "terminals": 3,
+    "prediction": "9",
+    "correct": true,
+    "score": null,
+    "environment_progress": null
+  }
+]

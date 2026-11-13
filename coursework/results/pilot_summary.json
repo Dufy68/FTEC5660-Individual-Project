@@ -1,0 +1,26 @@
+{
+  "3": {
+    "completed": 5,
+    "correct": 3,
+    "accuracy": 0.6,
+    "search_calls": 103,
+    "input_tokens": 79794,
+    "output_tokens": 12348,
+    "search_wall_seconds": 180.81,
+    "eval_calls": 4,
+    "eval_input_tokens": 6508,
+    "eval_output_tokens": 298
+  },
+  "10": {
+    "completed": 5,
+    "correct": 4,
+    "accuracy": 0.8,
+    "search_calls": 184,
+    "input_tokens": 214605,
+    "output_tokens": 25623,
+    "search_wall_seconds": 358.02000000000004,
+    "eval_calls": 5,
+    "eval_input_tokens": 9405,
+    "eval_output_tokens": 405
+  }
+}

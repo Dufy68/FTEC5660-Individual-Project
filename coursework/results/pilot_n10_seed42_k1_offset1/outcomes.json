@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "unique_id": "test/prealgebra/1622.json",
+    "reference": "42",
+    "terminals": 3,
+    "prediction": "42 inches",
+    "correct": false,
+    "score": null,
+    "environment_progress": null
+  }
+]

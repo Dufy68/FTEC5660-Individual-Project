@@ -51,3 +51,6 @@ Raw debugging runs are excluded from measured summaries. `pilot_metrics.csv` con
 The 512-token cap prevents the observed length-validation retry loop, but can truncate longer reasoning. Treat this as an additional model/setup limitation, not proof that the search algorithm cannot solve a task. Local seeds do not control DeepSeek server-side randomness. Concurrent requests also make runtime comparisons noisy.
 
 Full raw traces remain in each local run folder. Compact metrics, manifests, outcomes, and statuses are versioned; bulky search/evaluation logs are excluded from Git. Re-running the documented commands regenerates them.
+
+## Results
+See [the completed pilot analysis](PILOT_RESULTS.md). The upstream strict scorer gives 4/5 at 10 iterations versus 3/5 at 3 iterations. A shared unit-format mismatch is disclosed separately. These are pilot results only.

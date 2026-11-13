@@ -12,3 +12,5 @@
 - Froze exact dataset revision and row order before the measured pilot. The derivative contains 316 numeric-answer items, not all 500 MATH500 tasks.
 
 - First measured pilot with 1024-token cap completed four items per condition; the fifth repeatedly exceeded the upstream 1000-token validation threshold. Stopped all remaining calls. Reduced output cap to 512 in both conditions and reran the complete fixed pilot. Prior artifacts carry debug_cap1024_ prefixes and are excluded from measured summaries.
+
+- Final upstream scoring flagged `42 inches` versus reference `42` in both conditions. Preserved that mismatch in the primary metric and documented manual magnitude agreement separately. Earlier progress updates described correctness before all numeric-checking outputs were inspected; final results are 4/5 and 3/5.
