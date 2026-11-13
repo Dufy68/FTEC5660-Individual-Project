@@ -1,0 +1,14 @@
+{
+  "offset": 11,
+  "policy_temperature": 0.7,
+  "iterations": 3,
+  "limit": 1,
+  "seed": 44,
+  "model": "deepseek-flash",
+  "base_url": "https://api.deepseek.com",
+  "thinking": false,
+  "top_p": 1,
+  "max_new_tokens": 512,
+  "upstream_commit": "25e94d862cb4514c22d9a80a635e392461769df7",
+  "note": "Adapted reproduction; hosted API sampling is not guaranteed seed-deterministic."
+}

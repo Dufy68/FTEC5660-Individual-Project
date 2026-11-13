@@ -1,0 +1,14 @@
+[
+  {
+    "index": 6,
+    "unique_id": "test/geometry/248.json",
+    "reference": "5",
+    "terminals": 3,
+    "prediction": "5",
+    "correct": true,
+    "score": null,
+    "environment_progress": null,
+    "normalized_prediction": "5",
+    "magnitude_correct": true
+  }
+]

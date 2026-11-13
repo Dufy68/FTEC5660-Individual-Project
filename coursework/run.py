@@ -23,7 +23,7 @@ import torch
 random.seed(a.seed); np.random.seed(a.seed); torch.manual_seed(a.seed)
 out=ROOT/'coursework/results'/f'{a.study}_n{a.iterations}_seed{a.seed}_k{a.limit}_offset{a.offset}'
 
-if (out/'search/terminal_nodes').exists() and any((out/'search/terminal_nodes').iterdir()):
+if not a.dry_run and (out/'search/terminal_nodes').exists() and any((out/'search/terminal_nodes').iterdir()):
     raise SystemExit('Output already contains a run; use a fresh directory or archive it first.')
 out.mkdir(parents=True,exist_ok=True)
 manifest=dict(offset=a.offset,policy_temperature=0.7,iterations=a.iterations,limit=a.limit,seed=a.seed,model='deepseek-flash',base_url='https://api.deepseek.com',thinking=False,top_p=1,max_new_tokens=512,upstream_commit='25e94d862cb4514c22d9a80a635e392461769df7',note='Adapted reproduction; hosted API sampling is not guaranteed seed-deterministic.')

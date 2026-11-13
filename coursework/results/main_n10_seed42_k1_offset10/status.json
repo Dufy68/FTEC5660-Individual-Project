@@ -1,0 +1,9 @@
+{
+  "iterations": 10,
+  "offset": 10,
+  "seed": 42,
+  "started_utc": "2026-11-03T18:55:41.493325+00:00",
+  "search_wall_seconds": 59.74307341687381,
+  "status": "complete",
+  "total_wall_seconds": 62.24664516700432
+}

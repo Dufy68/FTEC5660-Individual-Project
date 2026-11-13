@@ -1,0 +1,129 @@
+{
+  "3": {
+    "trials": 3,
+    "distinct_questions": 10,
+    "evaluations": 30,
+    "accuracy": {
+      "mean": 0.8,
+      "sample_variance": 0.010000000000000007,
+      "sample_sd": 0.10000000000000003,
+      "by_trial": [
+        0.8,
+        0.7,
+        0.9
+      ]
+    },
+    "magnitude_accuracy": {
+      "mean": 0.8,
+      "sample_variance": 0.010000000000000007,
+      "sample_sd": 0.10000000000000003,
+      "by_trial": [
+        0.8,
+        0.7,
+        0.9
+      ]
+    },
+    "search_tokens": {
+      "mean": 151717,
+      "sample_variance": 203665963,
+      "sample_sd": 14271.158432306747,
+      "by_trial": [
+        164198,
+        136158,
+        154795
+      ]
+    },
+    "search_calls": {
+      "mean": 194.33333333333334,
+      "sample_variance": 182.33333333333334,
+      "sample_sd": 13.503086067019396,
+      "by_trial": [
+        208,
+        181,
+        194
+      ]
+    },
+    "search_wall_seconds": {
+      "mean": 364.44372500137735,
+      "sample_variance": 8727.587584629007,
+      "sample_sd": 93.42155845750491,
+      "by_trial": [
+        470.67180725210346,
+        295.0728855864145,
+        327.58648216561414
+      ]
+    },
+    "input_tokens_total": 401845,
+    "output_tokens_total": 53306,
+    "evaluation_calls_total": 30,
+    "evaluation_input_tokens_total": 60357,
+    "evaluation_output_tokens_total": 2213,
+    "policy_outputs_at_cap_total": 35,
+    "failures_total": 0
+  },
+  "10": {
+    "trials": 3,
+    "distinct_questions": 10,
+    "evaluations": 30,
+    "accuracy": {
+      "mean": 0.8666666666666667,
+      "sample_variance": 0.003333333333333332,
+      "sample_sd": 0.05773502691896256,
+      "by_trial": [
+        0.9,
+        0.9,
+        0.8
+      ]
+    },
+    "magnitude_accuracy": {
+      "mean": 0.8666666666666667,
+      "sample_variance": 0.003333333333333332,
+      "sample_sd": 0.05773502691896256,
+      "by_trial": [
+        0.9,
+        0.9,
+        0.8
+      ]
+    },
+    "search_tokens": {
+      "mean": 206408.66666666666,
+      "sample_variance": 440953260.3333333,
+      "sample_sd": 20998.88712130558,
+      "by_trial": [
+        186480,
+        228335,
+        204411
+      ]
+    },
+    "search_calls": {
+      "mean": 223.33333333333334,
+      "sample_variance": 56.333333333333336,
+      "sample_sd": 7.505553499465135,
+      "by_trial": [
+        216,
+        223,
+        231
+      ]
+    },
+    "search_wall_seconds": {
+      "mean": 463.0086314443809,
+      "sample_variance": 2015.717121615355,
+      "sample_sd": 44.89673842959369,
+      "by_trial": [
+        505.3655246659182,
+        415.94317420898005,
+        467.71719545824453
+      ]
+    },
+    "input_tokens_total": 555727,
+    "output_tokens_total": 63499,
+    "evaluation_calls_total": 30,
+    "evaluation_input_tokens_total": 69529,
+    "evaluation_output_tokens_total": 2767,
+    "policy_outputs_at_cap_total": 36,
+    "failures_total": 0
+  },
+  "search_token_reduction": 0.26496787925571597,
+  "primary_accuracy_difference_3_minus_10": -0.06666666666666665,
+  "cost_ceiling_usd": 0.4723794
+}

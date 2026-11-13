@@ -14,3 +14,5 @@
 - First measured pilot with 1024-token cap completed four items per condition; the fifth repeatedly exceeded the upstream 1000-token validation threshold. Stopped all remaining calls. Reduced output cap to 512 in both conditions and reran the complete fixed pilot. Prior artifacts carry debug_cap1024_ prefixes and are excluded from measured summaries.
 
 - Final upstream scoring flagged `42 inches` versus reference `42` in both conditions. Preserved that mismatch in the primary metric and documented manual magnitude agreement separately. Earlier progress updates described correctness before all numeric-checking outputs were inspected; final results are 4/5 and 3/5.
+
+- Main study: all 60 jobs completed. Strict means were 86.7% (10 iterations) and 80.0% (3). The predeclared suffix rule changed no scores. Error audit found three genuine geometry errors per condition, plus one versus three currency/prose mismatches. A post hoc manual value audit gives 27/30 for both; primary scores remain unchanged. Geometry input contains Asymptote source rather than an image; causality is untested.

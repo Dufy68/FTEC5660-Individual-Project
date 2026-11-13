@@ -54,3 +54,31 @@ Full raw traces remain in each local run folder. Compact metrics, manifests, out
 
 ## Results
 See [the completed pilot analysis](PILOT_RESULTS.md). The upstream strict scorer gives 4/5 at 10 iterations versus 3/5 at 3 iterations. A shared unit-format mismatch is disclosed separately. These are pilot results only.
+
+## Completed main study
+
+The main study uses **indices 5-14**, three trials (local seeds 42, 43, 44), and two iteration budgets. All 60 jobs completed without execution failures.
+
+| Metric | 10 iterations | 3 iterations |
+|---|---:|---:|
+| Strict accuracy mean ± sample SD | 86.7% ± 5.8 pp | 80.0% ± 10.0 pp |
+| Strict pooled correct / attempts | 26/30 | 24/30 |
+| Mean search tokens per trial | 206,409 | 151,717 |
+| Post hoc manual value audit | 27/30 | 27/30 |
+
+The smaller budget used **26.5% fewer search tokens**. The strict score gap came from currency/prose formatting; it does not establish a mathematical-accuracy penalty. The predeclared secondary unit-suffix metric changed no main-study scores. See `results/main_metrics.csv`, `main_trials.csv`, and `main_summary.json`. The ten tasks repeat across trials; they are not 30 independent questions.
+
+The protocol is in `study_plan.json` and was committed before collecting main outputs. `analyze_main.py` checks the paired manifests, absence of replayed cache records, all declared denominators, and completeness. The measured source data remain frozen. Python/NumPy/PyTorch seeds do not guarantee deterministic hosted generation.
+
+To inspect the existing results, open the CSV/JSON files. To **collect new runs**, first preserve existing run folders because the launcher resumes completed statuses:
+
+```sh
+mv coursework/results coursework/results_recorded
+mkdir coursework/results
+.venv/bin/python coursework/study.py
+.venv/bin/python coursework/analyze_main.py
+```
+
+Do not interpret `study.py` skipping saved statuses as a new experiment. A full rerun can produce different outputs and incurs API charges. The supplied evidence ZIP retains the actual raw main-study traces for inspection without additional calls. The dependency lock plus frozen data support the API path; no local LLM checkpoint download is required.
+
+The report and presentation are submitted separately. The measured evidence is in `deliverables/FTEC5660_LiTS_Evidence.zip`.

@@ -1,0 +1,61 @@
+seed,iterations,index,unique_id,level,subject,status,prediction,normalized_prediction,reference,correct,magnitude_correct,terminals,search_calls,input_tokens,output_tokens,search_wall_seconds,evaluation_calls,evaluation_input_tokens,evaluation_output_tokens,policy_outputs_at_cap,search_tokens
+42,3,5,test/number_theory/737.json,5,Number Theory,complete,284,284,284,1,1,3,25,11101,1579,44.708635166985914,1,1567,73,0,12680
+42,3,6,test/geometry/248.json,2,Geometry,complete,5,5,5,1,1,3,15,7633,357,25.006031000055373,1,1569,73,0,7990
+42,3,7,test/intermediate_algebra/134.json,1,Intermediate Algebra,complete,-50,-50,-50,1,1,3,15,4583,297,23.24992650002241,1,1286,76,0,4880
+42,3,8,test/geometry/434.json,1,Geometry,complete,112,112,28,0,0,2,39,45479,6949,127.12387800007127,1,1784,56,10,52428
+42,3,9,test/intermediate_algebra/1000.json,3,Intermediate Algebra,complete,3,3,3,1,1,3,24,19223,2123,61.035382041940466,1,2565,73,2,21346
+42,3,10,test/intermediate_algebra/607.json,3,Intermediate Algebra,complete,13535,13535,13535,1,1,3,15,9145,1397,25.634003459010273,1,2618,76,1,10542
+42,3,11,test/algebra/1837.json,5,Algebra,complete,5,5,5,1,1,3,28,19682,1857,68.91991879208945,1,2463,73,0,21539
+42,3,12,test/algebra/2427.json,5,Algebra,complete,10,10,10,1,1,3,15,10012,1316,21.275774458888918,1,2521,73,0,11328
+42,3,13,test/counting_and_probability/525.json,5,Counting & Probability,complete,144,144,144,1,1,2,17,12591,2756,52.000965208048,1,1472,56,2,15347
+42,3,14,test/prealgebra/1840.json,2,Prealgebra,complete,$78,$78,78,0,0,3,15,5771,347,21.717292624991387,1,1409,76,0,6118
+42,10,5,test/number_theory/737.json,5,Number Theory,complete,284,284,284,1,1,3,14,6503,931,25.388767041964456,1,1796,73,0,7434
+42,10,6,test/geometry/248.json,2,Geometry,complete,5,5,5,1,1,3,15,7917,437,35.07413383293897,1,1641,73,0,8354
+42,10,7,test/intermediate_algebra/134.json,1,Intermediate Algebra,complete,-50,-50,-50,1,1,3,15,4871,377,26.1275681250263,1,1380,76,0,5248
+42,10,8,test/geometry/434.json,1,Geometry,complete,68,68,28,0,0,8,46,53031,6781,107.0772592080757,1,4346,158,6,59812
+42,10,9,test/intermediate_algebra/1000.json,3,Intermediate Algebra,complete,3,3,3,1,1,4,27,20297,1827,77.54948512488045,1,2292,90,1,22124
+42,10,10,test/intermediate_algebra/607.json,3,Intermediate Algebra,complete,13535,13535,13535,1,1,5,22,17260,4466,59.74307341687381,1,3017,112,1,21726
+42,10,11,test/algebra/1837.json,5,Algebra,complete,5,5,5,1,1,4,27,21743,1537,56.770811416907236,1,2251,90,1,23280
+42,10,12,test/algebra/2427.json,5,Algebra,complete,10,10,10,1,1,3,15,10200,1369,56.25347204110585,1,2565,73,0,11569
+42,10,13,test/counting_and_probability/525.json,5,Counting & Probability,complete,144,144,144,1,1,5,20,17108,2891,35.43310320796445,1,3103,107,1,19999
+42,10,14,test/prealgebra/1840.json,2,Prealgebra,complete,78,78,78,1,1,3,15,6423,511,25.947851250180975,1,1579,73,0,6934
+43,3,5,test/number_theory/737.json,5,Number Theory,complete,284,284,284,1,1,3,28,15199,1476,44.3530180840753,1,1974,73,0,16675
+43,3,6,test/geometry/248.json,2,Geometry,complete,5,5,5,1,1,3,15,7797,398,17.95979916700162,1,1619,73,0,8195
+43,3,7,test/intermediate_algebra/134.json,1,Intermediate Algebra,complete,-50,-50,-50,1,1,3,15,4723,340,18.52822562493384,1,1340,76,0,5063
+43,3,8,test/geometry/434.json,1,Geometry,complete,6,6,28,0,0,3,23,23266,4517,52.47165133408271,1,2622,79,5,27783
+43,3,9,test/intermediate_algebra/1000.json,3,Intermediate Algebra,complete,a ≥ 3 (smallest possible value is 3),a ≥ 3 (smallest possible value is 3),3,0,0,3,11,6337,1746,19.548516750102863,1,2648,101,2,8083
+43,3,10,test/intermediate_algebra/607.json,3,Intermediate Algebra,complete,13535,13535,13535,1,1,3,34,28733,4100,61.62690100003965,1,2161,76,2,32833
+43,3,11,test/algebra/1837.json,5,Algebra,complete,5,5,5,1,1,3,15,10269,1259,21.531563292024657,1,2639,73,0,11528
+43,3,12,test/algebra/2427.json,5,Algebra,complete,10,10,10,1,1,3,15,10412,1417,20.632043041987345,1,2615,73,1,11829
+43,3,13,test/counting_and_probability/525.json,5,Counting & Probability,complete,144,144,144,1,1,3,10,5442,2079,21.615599292097613,1,2193,73,0,7521
+43,3,14,test/prealgebra/1840.json,2,Prealgebra,complete,$78,$78,78,0,0,3,15,6195,453,16.805568000068888,1,1511,75,0,6648
+43,10,5,test/number_theory/737.json,5,Number Theory,complete,284,284,284,1,1,3,12,5440,649,16.458058999851346,1,1724,73,0,6089
+43,10,6,test/geometry/248.json,2,Geometry,complete,5,5,5,1,1,3,15,7773,396,16.157183417119086,1,1615,73,0,8169
+43,10,7,test/intermediate_algebra/134.json,1,Intermediate Algebra,complete,-50,-50,-50,1,1,3,15,4715,336,15.212399167008698,1,1330,76,0,5051
+43,10,8,test/geometry/434.json,1,Geometry,complete,62,62,28,0,0,9,76,119411,10718,182.7181557500735,1,4259,175,12,130129
+43,10,9,test/intermediate_algebra/1000.json,3,Intermediate Algebra,complete,3,3,3,1,1,5,25,20690,3194,59.755320749944076,1,3050,107,2,23884
+43,10,10,test/intermediate_algebra/607.json,3,Intermediate Algebra,complete,13535,13535,13535,1,1,5,25,18028,2486,49.2990501250606,1,2397,112,1,20514
+43,10,11,test/algebra/1837.json,5,Algebra,complete,5,5,5,1,1,3,13,8896,1751,22.357154374942183,1,2609,73,0,10647
+43,10,12,test/algebra/2427.json,5,Algebra,complete,10,10,10,1,1,3,15,9408,1167,19.42947170790285,1,2345,73,0,10575
+43,10,13,test/counting_and_probability/525.json,5,Counting & Probability,complete,144,144,144,1,1,3,12,5583,1148,16.120500625111163,1,1865,73,0,6731
+43,10,14,test/prealgebra/1840.json,2,Prealgebra,complete,78,78,78,1,1,3,15,6115,431,18.435879291966558,1,1512,73,0,6546
+44,3,5,test/number_theory/737.json,5,Number Theory,complete,284,284,284,1,1,3,11,4916,1368,18.30278475000523,1,1757,73,0,6284
+44,3,6,test/geometry/248.json,2,Geometry,complete,5,5,5,1,1,3,15,7813,402,15.516394957900047,1,1609,73,0,8215
+44,3,7,test/intermediate_algebra/134.json,1,Intermediate Algebra,complete,-50,-50,-50,1,1,3,15,4635,312,14.624034584034234,1,1314,76,0,4947
+44,3,8,test/geometry/434.json,1,Geometry,complete,68,68,28,0,0,3,34,40263,4863,66.53779883310199,1,2396,73,7,45126
+44,3,9,test/intermediate_algebra/1000.json,3,Intermediate Algebra,complete,3,3,3,1,1,3,26,20100,2003,41.97575354180299,1,2387,73,1,22103
+44,3,10,test/intermediate_algebra/607.json,3,Intermediate Algebra,complete,13535,13535,13535,1,1,3,36,28692,3346,57.34605929092504,1,1855,76,2,32038
+44,3,11,test/algebra/1837.json,5,Algebra,complete,5,5,5,1,1,3,15,9869,1161,26.9328928750474,1,2516,73,0,11030
+44,3,12,test/algebra/2427.json,5,Algebra,complete,10,10,10,1,1,3,15,9680,1235,34.589344874955714,1,2415,73,0,10915
+44,3,13,test/counting_and_probability/525.json,5,Counting & Probability,complete,144,144,144,1,1,3,12,5913,1357,24.247971666045487,1,1928,73,0,7270
+44,3,14,test/prealgebra/1840.json,2,Prealgebra,complete,78,78,78,1,1,3,15,6371,496,27.513446791796014,1,1604,73,0,6867
+44,10,5,test/number_theory/737.json,5,Number Theory,complete,284,284,284,1,1,3,11,5409,1185,15.572936125099659,1,2007,73,0,6594
+44,10,6,test/geometry/248.json,2,Geometry,complete,5,5,5,1,1,3,15,7765,394,16.2662107499782,1,1618,73,0,8159
+44,10,7,test/intermediate_algebra/134.json,1,Intermediate Algebra,complete,-50,-50,-50,1,1,3,15,4659,318,15.429405709030107,1,1316,76,0,4977
+44,10,8,test/geometry/434.json,1,Geometry,complete,62,62,28,0,0,7,47,60364,5674,134.12058487487957,1,3537,141,6,66038
+44,10,9,test/intermediate_algebra/1000.json,3,Intermediate Algebra,complete,3,3,3,1,1,7,40,37195,4175,98.81647991598584,1,3955,141,2,41370
+44,10,10,test/intermediate_algebra/607.json,3,Intermediate Algebra,complete,13535,13535,13535,1,1,5,35,28338,3469,62.69098375015892,1,2425,112,2,31807
+44,10,11,test/algebra/1837.json,5,Algebra,complete,5,5,5,1,1,3,15,9977,1186,23.405935375019908,1,2536,73,0,11163
+44,10,12,test/algebra/2427.json,5,Algebra,complete,10,10,10,1,1,3,15,9652,1227,22.666582958074287,1,2390,73,0,10879
+44,10,13,test/counting_and_probability/525.json,5,Counting & Probability,complete,144,144,144,1,1,4,23,15061,2091,57.89933708286844,1,1621,90,1,17152
+44,10,14,test/prealgebra/1840.json,2,Prealgebra,complete,$78,$78,78,0,0,3,15,5895,377,20.848738917149603,1,1448,82,0,6272

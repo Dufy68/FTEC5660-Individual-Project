@@ -1,0 +1,14 @@
+[
+  {
+    "index": 5,
+    "unique_id": "test/number_theory/737.json",
+    "reference": "284",
+    "terminals": 3,
+    "prediction": "284",
+    "correct": true,
+    "score": null,
+    "environment_progress": null,
+    "normalized_prediction": "284",
+    "magnitude_correct": true
+  }
+]

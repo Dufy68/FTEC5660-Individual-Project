@@ -1,0 +1,542 @@
+[
+  {
+    "iterations": 3,
+    "offset": 5,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:12.351976+00:00",
+    "search_wall_seconds": 44.708635166985914,
+    "status": "complete",
+    "total_wall_seconds": 50.386218583909795
+  },
+  {
+    "iterations": 10,
+    "offset": 5,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:12.352318+00:00",
+    "search_wall_seconds": 25.388767041964456,
+    "status": "complete",
+    "total_wall_seconds": 29.1405752080027
+  },
+  {
+    "iterations": 10,
+    "offset": 6,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:12.352332+00:00",
+    "search_wall_seconds": 35.07413383293897,
+    "status": "complete",
+    "total_wall_seconds": 42.94027916598134
+  },
+  {
+    "iterations": 3,
+    "offset": 6,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:12.352370+00:00",
+    "search_wall_seconds": 25.006031000055373,
+    "status": "complete",
+    "total_wall_seconds": 28.095844666007906
+  },
+  {
+    "iterations": 3,
+    "offset": 7,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:12.352425+00:00",
+    "search_wall_seconds": 23.24992650002241,
+    "status": "complete",
+    "total_wall_seconds": 26.347860249923542
+  },
+  {
+    "iterations": 10,
+    "offset": 7,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:12.352438+00:00",
+    "search_wall_seconds": 26.1275681250263,
+    "status": "complete",
+    "total_wall_seconds": 29.38969450001605
+  },
+  {
+    "iterations": 10,
+    "offset": 8,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:12.352450+00:00",
+    "search_wall_seconds": 107.0772592080757,
+    "status": "complete",
+    "total_wall_seconds": 116.8998962501064
+  },
+  {
+    "iterations": 3,
+    "offset": 8,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:12.352354+00:00",
+    "search_wall_seconds": 127.12387800007127,
+    "status": "complete",
+    "total_wall_seconds": 131.18003779114224
+  },
+  {
+    "iterations": 3,
+    "offset": 9,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:38.700719+00:00",
+    "search_wall_seconds": 61.035382041940466,
+    "status": "complete",
+    "total_wall_seconds": 64.33200820884667
+  },
+  {
+    "iterations": 10,
+    "offset": 9,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:40.448537+00:00",
+    "search_wall_seconds": 77.54948512488045,
+    "status": "complete",
+    "total_wall_seconds": 104.12455083290115
+  },
+  {
+    "iterations": 10,
+    "offset": 10,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:41.493325+00:00",
+    "search_wall_seconds": 59.74307341687381,
+    "status": "complete",
+    "total_wall_seconds": 62.24664516700432
+  },
+  {
+    "iterations": 3,
+    "offset": 10,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:41.742425+00:00",
+    "search_wall_seconds": 25.634003459010273,
+    "status": "complete",
+    "total_wall_seconds": 30.39571312488988
+  },
+  {
+    "iterations": 3,
+    "offset": 11,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:55:55.293100+00:00",
+    "search_wall_seconds": 68.91991879208945,
+    "status": "complete",
+    "total_wall_seconds": 71.68324862513691
+  },
+  {
+    "iterations": 10,
+    "offset": 11,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:56:02.738732+00:00",
+    "search_wall_seconds": 56.770811416907236,
+    "status": "complete",
+    "total_wall_seconds": 61.19880687491968
+  },
+  {
+    "iterations": 10,
+    "offset": 12,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:56:12.139170+00:00",
+    "search_wall_seconds": 56.25347204110585,
+    "status": "complete",
+    "total_wall_seconds": 86.09636041615158
+  },
+  {
+    "iterations": 3,
+    "offset": 12,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:56:43.033267+00:00",
+    "search_wall_seconds": 21.275774458888918,
+    "status": "complete",
+    "total_wall_seconds": 31.138064208906144
+  },
+  {
+    "iterations": 3,
+    "offset": 13,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:56:43.740301+00:00",
+    "search_wall_seconds": 52.000965208048,
+    "status": "complete",
+    "total_wall_seconds": 55.21797745791264
+  },
+  {
+    "iterations": 10,
+    "offset": 13,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:57:03.937989+00:00",
+    "search_wall_seconds": 35.43310320796445,
+    "status": "complete",
+    "total_wall_seconds": 37.87504275003448
+  },
+  {
+    "iterations": 10,
+    "offset": 14,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:57:06.976661+00:00",
+    "search_wall_seconds": 25.947851250180975,
+    "status": "complete",
+    "total_wall_seconds": 29.93228037515655
+  },
+  {
+    "iterations": 3,
+    "offset": 14,
+    "seed": 42,
+    "started_utc": "2026-11-03T18:57:09.252735+00:00",
+    "search_wall_seconds": 21.717292624991387,
+    "status": "complete",
+    "total_wall_seconds": 24.295231707859784
+  },
+  {
+    "iterations": 10,
+    "offset": 5,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:14.171752+00:00",
+    "search_wall_seconds": 16.458058999851346,
+    "status": "complete",
+    "total_wall_seconds": 19.457181416917592
+  },
+  {
+    "iterations": 3,
+    "offset": 5,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:23.533190+00:00",
+    "search_wall_seconds": 44.3530180840753,
+    "status": "complete",
+    "total_wall_seconds": 46.5319423340261
+  },
+  {
+    "iterations": 3,
+    "offset": 6,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:24.573541+00:00",
+    "search_wall_seconds": 17.95979916700162,
+    "status": "complete",
+    "total_wall_seconds": 20.065569708123803
+  },
+  {
+    "iterations": 10,
+    "offset": 6,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:33.548404+00:00",
+    "search_wall_seconds": 16.157183417119086,
+    "status": "complete",
+    "total_wall_seconds": 19.20202837511897
+  },
+  {
+    "iterations": 10,
+    "offset": 7,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:33.629250+00:00",
+    "search_wall_seconds": 15.212399167008698,
+    "status": "complete",
+    "total_wall_seconds": 18.251936041982844
+  },
+  {
+    "iterations": 3,
+    "offset": 7,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:36.909455+00:00",
+    "search_wall_seconds": 18.52822562493384,
+    "status": "complete",
+    "total_wall_seconds": 20.759012708906084
+  },
+  {
+    "iterations": 3,
+    "offset": 8,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:38.235871+00:00",
+    "search_wall_seconds": 52.47165133408271,
+    "status": "complete",
+    "total_wall_seconds": 55.153480084147304
+  },
+  {
+    "iterations": 10,
+    "offset": 8,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:38.958798+00:00",
+    "search_wall_seconds": 182.7181557500735,
+    "status": "complete",
+    "total_wall_seconds": 186.63302699988708
+  },
+  {
+    "iterations": 10,
+    "offset": 9,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:41.813464+00:00",
+    "search_wall_seconds": 59.755320749944076,
+    "status": "complete",
+    "total_wall_seconds": 62.231964708073065
+  },
+  {
+    "iterations": 3,
+    "offset": 9,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:44.639751+00:00",
+    "search_wall_seconds": 19.548516750102863,
+    "status": "complete",
+    "total_wall_seconds": 22.21302045811899
+  },
+  {
+    "iterations": 3,
+    "offset": 10,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:51.881801+00:00",
+    "search_wall_seconds": 61.62690100003965,
+    "status": "complete",
+    "total_wall_seconds": 63.666932083899155
+  },
+  {
+    "iterations": 10,
+    "offset": 10,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:52.750806+00:00",
+    "search_wall_seconds": 49.2990501250606,
+    "status": "complete",
+    "total_wall_seconds": 52.17462462512776
+  },
+  {
+    "iterations": 10,
+    "offset": 11,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:57:57.668944+00:00",
+    "search_wall_seconds": 22.357154374942183,
+    "status": "complete",
+    "total_wall_seconds": 24.72223429195583
+  },
+  {
+    "iterations": 3,
+    "offset": 11,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:58:06.853414+00:00",
+    "search_wall_seconds": 21.531563292024657,
+    "status": "complete",
+    "total_wall_seconds": 24.33277333388105
+  },
+  {
+    "iterations": 3,
+    "offset": 12,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:58:10.065590+00:00",
+    "search_wall_seconds": 20.632043041987345,
+    "status": "complete",
+    "total_wall_seconds": 23.510535957990214
+  },
+  {
+    "iterations": 10,
+    "offset": 12,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:58:22.392516+00:00",
+    "search_wall_seconds": 19.42947170790285,
+    "status": "complete",
+    "total_wall_seconds": 21.672841500025243
+  },
+  {
+    "iterations": 10,
+    "offset": 13,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:58:31.186579+00:00",
+    "search_wall_seconds": 16.120500625111163,
+    "status": "complete",
+    "total_wall_seconds": 19.42875320906751
+  },
+  {
+    "iterations": 3,
+    "offset": 13,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:58:33.389737+00:00",
+    "search_wall_seconds": 21.615599292097613,
+    "status": "complete",
+    "total_wall_seconds": 24.56355100008659
+  },
+  {
+    "iterations": 3,
+    "offset": 14,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:58:33.576417+00:00",
+    "search_wall_seconds": 16.805568000068888,
+    "status": "complete",
+    "total_wall_seconds": 19.97227962501347
+  },
+  {
+    "iterations": 10,
+    "offset": 14,
+    "seed": 43,
+    "started_utc": "2026-11-03T18:58:44.046158+00:00",
+    "search_wall_seconds": 18.435879291966558,
+    "status": "complete",
+    "total_wall_seconds": 20.803429167019203
+  },
+  {
+    "iterations": 3,
+    "offset": 5,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:58:44.065669+00:00",
+    "search_wall_seconds": 18.30278475000523,
+    "status": "complete",
+    "total_wall_seconds": 20.500619542086497
+  },
+  {
+    "iterations": 10,
+    "offset": 5,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:58:44.925780+00:00",
+    "search_wall_seconds": 15.572936125099659,
+    "status": "complete",
+    "total_wall_seconds": 17.83761812513694
+  },
+  {
+    "iterations": 10,
+    "offset": 6,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:58:50.615747+00:00",
+    "search_wall_seconds": 16.2662107499782,
+    "status": "complete",
+    "total_wall_seconds": 18.672501208027825
+  },
+  {
+    "iterations": 3,
+    "offset": 6,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:58:53.548977+00:00",
+    "search_wall_seconds": 15.516394957900047,
+    "status": "complete",
+    "total_wall_seconds": 18.347909624921158
+  },
+  {
+    "iterations": 3,
+    "offset": 7,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:58:55.549088+00:00",
+    "search_wall_seconds": 14.624034584034234,
+    "status": "complete",
+    "total_wall_seconds": 16.74959541694261
+  },
+  {
+    "iterations": 10,
+    "offset": 7,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:58:57.953817+00:00",
+    "search_wall_seconds": 15.429405709030107,
+    "status": "complete",
+    "total_wall_seconds": 17.78480845899321
+  },
+  {
+    "iterations": 10,
+    "offset": 8,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:02.763725+00:00",
+    "search_wall_seconds": 134.12058487487957,
+    "status": "complete",
+    "total_wall_seconds": 138.3556276250165
+  },
+  {
+    "iterations": 3,
+    "offset": 8,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:04.567387+00:00",
+    "search_wall_seconds": 66.53779883310199,
+    "status": "complete",
+    "total_wall_seconds": 70.83086741599254
+  },
+  {
+    "iterations": 3,
+    "offset": 9,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:04.849923+00:00",
+    "search_wall_seconds": 41.97575354180299,
+    "status": "complete",
+    "total_wall_seconds": 44.22064620885067
+  },
+  {
+    "iterations": 10,
+    "offset": 9,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:09.288622+00:00",
+    "search_wall_seconds": 98.81647991598584,
+    "status": "complete",
+    "total_wall_seconds": 105.03330254089087
+  },
+  {
+    "iterations": 10,
+    "offset": 10,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:11.897474+00:00",
+    "search_wall_seconds": 62.69098375015892,
+    "status": "complete",
+    "total_wall_seconds": 65.15126733318903
+  },
+  {
+    "iterations": 3,
+    "offset": 10,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:12.299008+00:00",
+    "search_wall_seconds": 57.34605929092504,
+    "status": "complete",
+    "total_wall_seconds": 60.13289741589688
+  },
+  {
+    "iterations": 3,
+    "offset": 11,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:15.739095+00:00",
+    "search_wall_seconds": 26.9328928750474,
+    "status": "complete",
+    "total_wall_seconds": 31.03295745817013
+  },
+  {
+    "iterations": 10,
+    "offset": 11,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:46.772647+00:00",
+    "search_wall_seconds": 23.405935375019908,
+    "status": "complete",
+    "total_wall_seconds": 26.207450875081122
+  },
+  {
+    "iterations": 10,
+    "offset": 12,
+    "seed": 44,
+    "started_utc": "2026-11-03T18:59:49.070885+00:00",
+    "search_wall_seconds": 22.666582958074287,
+    "status": "complete",
+    "total_wall_seconds": 25.11776433303021
+  },
+  {
+    "iterations": 3,
+    "offset": 12,
+    "seed": 44,
+    "started_utc": "2026-11-03T19:00:12.432385+00:00",
+    "search_wall_seconds": 34.589344874955714,
+    "status": "complete",
+    "total_wall_seconds": 36.75405112490989
+  },
+  {
+    "iterations": 3,
+    "offset": 13,
+    "seed": 44,
+    "started_utc": "2026-11-03T19:00:12.980494+00:00",
+    "search_wall_seconds": 24.247971666045487,
+    "status": "complete",
+    "total_wall_seconds": 28.115528290858492
+  },
+  {
+    "iterations": 10,
+    "offset": 13,
+    "seed": 44,
+    "started_utc": "2026-11-03T19:00:14.189012+00:00",
+    "search_wall_seconds": 57.89933708286844,
+    "status": "complete",
+    "total_wall_seconds": 60.39294512500055
+  },
+  {
+    "iterations": 10,
+    "offset": 14,
+    "seed": 44,
+    "started_utc": "2026-11-03T19:00:15.398533+00:00",
+    "search_wall_seconds": 20.848738917149603,
+    "status": "complete",
+    "total_wall_seconds": 23.851249875035137
+  },
+  {
+    "iterations": 3,
+    "offset": 14,
+    "seed": 44,
+    "started_utc": "2026-11-03T19:00:17.049103+00:00",
+    "search_wall_seconds": 27.513446791796014,
+    "status": "complete",
+    "total_wall_seconds": 32.13962004194036
+  }
+]

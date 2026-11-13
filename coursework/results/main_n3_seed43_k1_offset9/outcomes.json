@@ -1,0 +1,14 @@
+[
+  {
+    "index": 9,
+    "unique_id": "test/intermediate_algebra/1000.json",
+    "reference": "3",
+    "terminals": 3,
+    "prediction": "a \u2265 3 (smallest possible value is 3)",
+    "correct": false,
+    "score": null,
+    "environment_progress": null,
+    "normalized_prediction": "a \u2265 3 (smallest possible value is 3)",
+    "magnitude_correct": false
+  }
+]

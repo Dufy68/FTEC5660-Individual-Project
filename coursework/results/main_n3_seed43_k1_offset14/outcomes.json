@@ -1,0 +1,14 @@
+[
+  {
+    "index": 14,
+    "unique_id": "test/prealgebra/1840.json",
+    "reference": "78",
+    "terminals": 3,
+    "prediction": "$78",
+    "correct": false,
+    "score": null,
+    "environment_progress": null,
+    "normalized_prediction": "$78",
+    "magnitude_correct": false
+  }
+]

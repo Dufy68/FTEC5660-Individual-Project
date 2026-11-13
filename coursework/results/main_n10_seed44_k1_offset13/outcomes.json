@@ -1,0 +1,14 @@
+[
+  {
+    "index": 13,
+    "unique_id": "test/counting_and_probability/525.json",
+    "reference": "144",
+    "terminals": 4,
+    "prediction": "144",
+    "correct": true,
+    "score": null,
+    "environment_progress": null,
+    "normalized_prediction": "144",
+    "magnitude_correct": true
+  }
+]

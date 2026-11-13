@@ -1,0 +1,14 @@
+[
+  {
+    "index": 7,
+    "unique_id": "test/intermediate_algebra/134.json",
+    "reference": "-50",
+    "terminals": 3,
+    "prediction": "-50",
+    "correct": true,
+    "score": null,
+    "environment_progress": null,
+    "normalized_prediction": "-50",
+    "magnitude_correct": true
+  }
+]

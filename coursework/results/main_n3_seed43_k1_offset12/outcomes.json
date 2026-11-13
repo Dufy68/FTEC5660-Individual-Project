@@ -1,0 +1,14 @@
+[
+  {
+    "index": 12,
+    "unique_id": "test/algebra/2427.json",
+    "reference": "10",
+    "terminals": 3,
+    "prediction": "10",
+    "correct": true,
+    "score": null,
+    "environment_progress": null,
+    "normalized_prediction": "10",
+    "magnitude_correct": true
+  }
+]
