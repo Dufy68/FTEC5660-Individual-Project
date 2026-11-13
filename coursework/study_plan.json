@@ -1,0 +1,16 @@
+{
+  "study": "main",
+  "indices": [5,6,7,8,9,10,11,12,13,14],
+  "seeds": [42,43,44],
+  "iterations": [3,10],
+  "primary_metric": "unchanged upstream numeric exact scorer",
+  "secondary_metric": "same scorer after removing a recognized trailing unit from a standalone numeric answer; no unit conversion",
+  "unit_suffixes": ["inch", "inches", "cm", "centimeter", "centimeters", "meter", "meters", "m", "feet", "foot", "ft", "dollar", "dollars", "USD", "HKD", "degrees"],
+  "sample_rule": "next ten source-order questions after pilot, selected before main-study outputs",
+  "concurrency": 8,
+  "search_timeout_seconds": 900,
+  "evaluation_timeout_seconds": 120,
+  "per_iteration_runtime_check_seconds": 600,
+  "failure_policy": "search timeout or evaluation failure counts as unsuccessful on both accuracy metrics; retain tokens and completed evidence; report failures separately",
+  "inference_settings": "same as completed 512-token pilot; only iteration budget differs within each paired trial"
+}

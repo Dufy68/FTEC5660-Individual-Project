@@ -7,6 +7,7 @@ p.add_argument('--iterations',type=int,choices=[3,10],default=10)
 p.add_argument('--limit',type=int,default=5)
 p.add_argument('--offset',type=int,default=0)
 p.add_argument('--seed',type=int,default=42)
+p.add_argument('--study',choices=['pilot','main'],default='pilot')
 p.add_argument('--dry-run',action='store_true')
 a=p.parse_args()
 if not 1<=a.limit<=100: p.error('limit must be 1..100')
@@ -20,7 +21,10 @@ os.environ['MPLCONFIGDIR']=str(ROOT/'.cache/matplotlib')
 import numpy as np
 import torch
 random.seed(a.seed); np.random.seed(a.seed); torch.manual_seed(a.seed)
-out=ROOT/'coursework/results'/f'pilot_n{a.iterations}_seed{a.seed}_k{a.limit}_offset{a.offset}'
+out=ROOT/'coursework/results'/f'{a.study}_n{a.iterations}_seed{a.seed}_k{a.limit}_offset{a.offset}'
+
+if (out/'search/terminal_nodes').exists() and any((out/'search/terminal_nodes').iterdir()):
+    raise SystemExit('Output already contains a run; use a fresh directory or archive it first.')
 out.mkdir(parents=True,exist_ok=True)
 manifest=dict(offset=a.offset,policy_temperature=0.7,iterations=a.iterations,limit=a.limit,seed=a.seed,model='deepseek-flash',base_url='https://api.deepseek.com',thinking=False,top_p=1,max_new_tokens=512,upstream_commit='25e94d862cb4514c22d9a80a635e392461769df7',note='Adapted reproduction; hosted API sampling is not guaranteed seed-deterministic.')
 (out/'manifest.json').write_text(json.dumps(manifest,indent=2))
